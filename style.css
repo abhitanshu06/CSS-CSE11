@@ -1,4 +1,4 @@
-h3{
+/* h3{
     color:yellow;
 }
 .par{
@@ -10,4 +10,32 @@ h2{
 #hj{
     font-size:20px;
     color:purple;
+    text-align: center;
 }
+div{
+    color:blue;
+    font-size:18px;
+    height:100px;
+    width: 200px;
+    background-color: lightgrey;
+    border: 9px double rgb(22, 4, 66);
+    text-align: center;
+    padding: 50px 50px 50px 50px;
+    margin: 50px;
+    align-content: center;
+
+} */
+ /* div{
+    border: 2px solid black;
+    padding-top: 5px;
+ }
+ header{
+    font-size: 20px;
+    color: brown;
+    text-align: center;
+ }
+ p{
+    font-size: 18px;
+    color: rgb(72, 99, 72);
+    margin-top: 10px;
+ } */
