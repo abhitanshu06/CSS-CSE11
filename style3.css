@@ -10,7 +10,11 @@
         "main main sidebar sidebar"
         "footer footer footer footer"; */
     column-gap: 10px;
-    justify-items: center;
+    row-gap: 10px;
+    /* justify-items: center;
+    align-items: center; */
+    place-items: center; /* shorthand for justify-items and align-items */
+    place-content: center; /* shorthand for justify-content and align-content */
 }
 .item{
     height: 100px;
