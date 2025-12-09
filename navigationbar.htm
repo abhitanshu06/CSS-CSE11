@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #333;
+            padding: 1rem;
+        }
+        .logo {
+            color: whitesmoke;
+        }
+        .hamburger {
+            font-size: 24px;
+            cursor: pointer;
+            padding: 10px 20px;
+        }
+        .menu{
+            position: absolute;
+            flex-direction: column;
+            display: none;
+            background-color: #333;
+            top: 60px;
+            right: 20px;
+            width: 200px;
+        }
+        .menu a{
+            color: whitesmoke;
+            padding: 1rem;
+            text-decoration: none;
+            display: block;
+        }
+        .hamburger{
+            font-size: 2rem;
+            color: whitesmoke;
+            cursor: pointer;
+        }
+        @media (min-width: 768px) {
+            .hamburger {
+                display: none;
+            }
+            nav {
+                flex-direction: row;
+            }
+            .menu {
+                position: static;
+                display: flex;
+                flex-direction: row;
+                background-color: transparent;
+                width: auto;
+            }
+            .menu a {
+                padding: 0 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+    <div class="logo">MySite</div>
+    <div class="hamburger"><i class="fa-thin fa-burger-cheese"></i></div>
+    <div class="menu">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </div>
+    </nav>
+
+</body>
+</html>
